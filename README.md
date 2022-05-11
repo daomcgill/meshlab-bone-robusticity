@@ -48,7 +48,7 @@ Delete everything other than the selection:
 
 The area of interest has now been isolated:
 
-![gluteal tuberosity of UAG66](/gt_select.png)
+![gluteal tuberosity of UAG66](images/gt_select.png)
 
 3. Add curvature filters to the selected object.
 - *Filters->Normals, Curvatures and Orientation->Discrete Curvatures->Mean Curvature->Apply*
@@ -57,7 +57,7 @@ The area of interest has now been isolated:
 4. Render a histogram.
 - *Render->Show Vertex Quality Histogram*
 
-![histogram of curvature](/hist.png)
+![histogram of curvature](images/hist.png)
 
 5. Save .ply file of the original curvature.
 - *File->Export Mesh As->filename.ply->Save->Select Quality->Deselect all other boxes->OK*
